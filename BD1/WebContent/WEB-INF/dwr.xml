@@ -1,0 +1,32 @@
+ <!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://directwebremoting.org/schema/dwr30.dtd">
+
+
+<dwr>
+  <allow>
+  <filter class="org.directwebremoting.filter.AuditLogAjaxFilter"/>
+   <convert match="java.lang.Exception" converter="exception">
+  <param name='include' value='message,lineNumber'/>
+</convert>
+
+    <convert converter="bean" match="java.lang.Throwable"/>  	
+    <convert converter="bean" match="java.lang.StackTraceElement"/> 
+    
+    
+   <convert converter="collection" match="java.util.Collection"/>
+
+    <convert converter="map" match="java.util.Map"/>
+    <convert converter="bean" match="br.com.bd1.bean.Atributo" javascript="Atributo"/>
+        
+    
+    
+    <create creator="new" javascript="Fachada" scope="session">
+        <param name="class" value="br.com.db1.dao.Fachada" />
+    </create>
+    
+    
+     
+   
+  </allow>
+</dwr>

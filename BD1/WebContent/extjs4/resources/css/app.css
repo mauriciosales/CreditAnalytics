@@ -1,0 +1,113 @@
+.x-mask.splashscreen {
+background-color: white;
+opacity: 1;
+}
+.x-mask-msg.splashscreen,
+.x-mask-msg.splashscreen div {
+font-size: 16px;
+font-weight: bold;
+padding:220px 44px 100px 45px;
+border: none;
+background-color: transparent;
+background-position: top center;
+}
+.x-message-box .x-window-body .x-box-inner {
+min-height: 300px !important;
+}
+.x-splash-icon {
+background-image: url('img/espelho1.png') !important;
+margin-top: -30px;
+margin-bottom: -220px;
+height: 1px;
+}
+.key {
+background-image:url('img/door_in.png') !important;
+}
+.menuvenda {
+background-image:url('img/money_add.png') !important;
+}
+.tabelapreco {
+background-image:url('img/money_dollar.png') !important;
+}
+.extract {
+background-image:url('img/extract.gif') !important;
+}
+.liberar {
+background-image:url('img/down.png') !important;
+}
+.editarusuario {
+background-image:url('img/user_edit.png') !important;
+}
+.encerrar{
+background-image:url('img/edit.png') !important;
+}
+.cancel {
+background-image:url('img/cancel.png') !important;
+}
+.logar {
+background-image:url('img/folder_user.png') !important;
+}
+.logout{
+background-image:url('img/door_in.png') !important;
+	
+}
+.entrada{
+background-image:url('img/folder_user.png') !important;
+	
+}
+.movimento{
+background-image:url('img/application_view_list.png') !important;
+	
+}
+.pesquisa{
+background-image:url('img/filefind.png') !important;
+	
+}
+.criancaverde{
+background-image:url('img/user_green.png') !important;
+	
+}
+.administrator{
+background-image:url('img/chmod.png') !important;
+	
+}
+.financeiro{
+background-image:url('img/spread.gif') !important;
+	
+}
+#titleHeader {
+color:white;
+font-size:40px;
+font-weight:bold;
+font-family: helvetica,arial,verdana,sans-serif;
+text-shadow: 0 1px 0 #4E691F;
+
+}
+.home{
+background-image:url('img/home.png') !important;
+}
+.menumovimento{
+background-image:url('img/application.png') !important;
+}
+.panelmovimento{
+background-image:url('img/report_edit.png') !important;
+}
+.menuvenda{
+background-image:url('img/money.png') !important;
+}
+.menucadastro{
+background-image:url('img/page_user.gif') !important;
+}
+.menuentrada{
+background-image:url('img/page_attach.png') !important;
+}
+.sitemap{
+background-image:url('img/sitemap_color.png') !important;
+}
+.your-css{
+background-image:url('img/degrade.png') !important;
+}
+
+.logo{
+background-image:url('img/logo.png') no-repeat !important;
+}
